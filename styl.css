@@ -1,0 +1,13 @@
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{ background-color:rgba(144,  203,  44,  0.4);}
+.conteiner{display: flex;justify-content: center;align-items: center;color:black;}
+h1{display: flex;justify-content:center ;margin-top: 40px;}
+.quadro{display: grid;grid-template-columns: repeat(3, 100px);gap: 2px;margin-top: 20px;}
+.celula {width: 100px;height: 100px;background-color: rgb(22, 122, 216);color: azure;display: flex;justify-content: center;align-items: center;font-size: 35px;cursor: pointer;border-radius: 5px;}
+button {display: block;margin-top: 10px;}
+.custom-btn {width: 130px;height: 40px;color: #fff;border-radius: 5px;padding: 10px 25px;font-family: 'Lato', sans-serif;font-weight: 500;background: transparent;cursor: pointer;transition: all 0.3s ease;position: relative;display: inline-block;box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),7px 7px 20px 0px rgba(0,0,0,.1),4px 4px 5px 0px rgba(0,0,0,.1);outline: none;}
+.btn-1 {background: rgb(6,14,131);background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);border: none}
+.btn-1:hover {background: rgb(0,3,255);background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);}
+.frame { width: 90%; margin: 40px auto;text-align: center;}
+#placar{ color:black; font-size: 20px; display: flex;justify-content: center;}
