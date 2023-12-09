@@ -2,4 +2,4 @@
 <br>
 <h3>Jogo criado usando logica de Progamação com Html Css e Javascript</h3>
   
-<img src="">
+<img src="img_Jvelha.png">
